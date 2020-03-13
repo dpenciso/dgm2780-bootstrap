@@ -19,3 +19,11 @@ nav {
   background: gray; }
 
 /*# sourceMappingURL=main.css.map */
+
+.container {
+  border: red 1px solid;
+}
+
+.container-fluid {
+  border: red 1px solid;
+}
