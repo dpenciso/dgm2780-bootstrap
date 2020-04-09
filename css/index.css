@@ -1,6 +1,6 @@
 body {
   font-family: Nunito,sans-serif;
-  background-color: #121212;
+  background-color: #333;
   color :#e7e7e7;
 }
 
@@ -66,5 +66,38 @@ body {
 
 .small-text {
   font-size: .5rem;
-  color: #838383;
+}
+  
+.width-full {
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.card {
+  margin: 1rem 0;
+  border: none;
+  border-radius: 0%;
+}
+
+.card-body {
+  border: none;
+}
+
+.spring-sale {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.view {
+  color: white;
+  font-size: .8rem;
+  border: 1px solid #525252;
+  background-color: #1b1b1b;
+  margin-top: 2rem;
+  padding: .3rem 1rem;
+}
+
+.btn-dark {
+  border-radius: 0%;
 }
