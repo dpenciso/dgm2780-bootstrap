@@ -1,6 +1,6 @@
 body {
   font-family: Nunito,sans-serif;
-  background-color: #333;
+  background-color: #1b1b1b;
   color :#e7e7e7;
 }
 
@@ -18,6 +18,10 @@ body {
 
 .custom-nav-btn {
   background-color:#0078f2;
+}
+
+.custom-carousel-container {
+  background-color: #333;
 }
 
 .custom-nav-item {
@@ -100,4 +104,29 @@ body {
 
 .btn-dark {
   border-radius: 0%;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.more-margin {
+  margin-bottom: 2rem;
+}
+
+.gray-text {
+  color: rgb(139, 138, 138);
+}
+
+.fab {
+  padding-right: 1rem;
+}
+
+.custom-footer-text-center {
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
 }
