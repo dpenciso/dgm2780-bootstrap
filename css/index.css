@@ -130,3 +130,24 @@ body {
 footer {
   background-color: #333;
 }
+
+.custon-desktop-bottom {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .nav-item {
+    border-bottom: none;
+  }
+  .custom-mobile-bottom {
+    display: none;
+  }
+
+  .custom-desktop-text {
+    font-size: .5rem;
+    padding-top: 1rem;
+  }
+  .icon {
+    padding-top: .5rem;
+  }
+}
