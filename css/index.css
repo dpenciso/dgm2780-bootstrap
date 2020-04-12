@@ -131,8 +131,12 @@ footer {
   background-color: #333;
 }
 
-.custon-desktop-bottom {
+.custom-desktop-bottom {
   display: none;
+}
+
+.custom-shop-top {
+  padding-top: 1rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -143,6 +147,10 @@ footer {
     display: none;
   }
 
+  .custom-desktop-bottom {
+    display: flex;
+  }
+
   .custom-desktop-text {
     font-size: .5rem;
     padding-top: 1rem;
@@ -150,4 +158,8 @@ footer {
   .icon {
     padding-top: .5rem;
   }
+}
+
+.custom-bottom-form {
+  margin-bottom: 1rem;
 }
